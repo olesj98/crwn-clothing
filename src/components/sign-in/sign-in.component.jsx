@@ -43,6 +43,7 @@ class SignIn extends React.Component {
             id='email'
             handleChange={this.handleChange}
             label='Email'
+            autoComplete='email'
           />
           <FormInput
             type='password'
@@ -52,6 +53,7 @@ class SignIn extends React.Component {
             id='password'
             handleChange={this.handleChange}
             label='Password'
+            autoComplete='current-password'
           />
 
           <div className='buttons'>
